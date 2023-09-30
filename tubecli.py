@@ -137,6 +137,12 @@ IMPLIED OR EXPLICIT.""")
                                 severity="Minor delays"
                             case "severeDelays":
                                 severity="Severe delays"
+                            case "partSuspended":
+                                severity="Part suspended"
+                            case "suspended":
+                                severity="Suspended"
+                            case "plannedClosure":
+                                severity="Planned closure"
                             case _:
                                 severity="Unknown"
 
@@ -171,6 +177,12 @@ IMPLIED OR EXPLICIT.""")
                             severity="Minor delays"
                         case "severeDelays":
                             severity="Severe delays"
+                        case "partSuspended":
+                            severity="Part suspended"
+                        case "suspended":
+                            severity="Suspended"
+                        case "plannedClosure":
+                            severity="Planned closure"
                         case _:
                             severity="Unknown"
 
